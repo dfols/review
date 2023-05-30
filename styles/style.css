@@ -1,0 +1,42 @@
+/* This is a CSS reset that sets margin, padding and box-sizing to avoid inconsistencies across different browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* This is a simple CSS rule that selects the body element and sets its font-family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* This selects all h1 elements and centers their text */
+h1 {
+  text-align: center;
+}
+
+/* This rule selects the nav element and gives it a background color */
+nav {
+  background-color: #f0f0f0;
+}
+
+/* This rule selects ul elements within the nav element and styles the list */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+/* This rule selects li elements within the nav ul and styles the list items */
+nav ul li {
+  margin: 0 1em;
+}
+
+/* This rule selects a elements within the nav ul li and styles the links */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* etc. */

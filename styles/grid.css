@@ -1,0 +1,58 @@
+/* This is a CSS reset that sets margin, padding and box-sizing to avoid inconsistencies across different browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body of the document */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the header */
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Styling for the navigation bar */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  padding: 15px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Styling for the main content */
+main {
+  padding: 20px;
+}
+
+/* Styling for the grid container */
+#grid-example {
+  display: grid; /* This makes the div a grid container */
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* This creates three columns of equal width */
+  grid-gap: 20px; /* This sets the size of the gap between grid items */
+}
+
+/* Styling for the grid items */
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
