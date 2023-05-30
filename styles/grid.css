@@ -35,8 +35,9 @@ nav ul li a {
   color: black;
 }
 
-/* Styling for the main content */
-main {
+/* Styling for the main content and footer */
+main,
+footer {
   padding: 20px;
 }
 

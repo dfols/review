@@ -1,85 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML | Web Dev Class</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-    </head>
+  <head>
+    <title>HTML | Web Dev Class</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
 
-    <body>
-        <header>
-            <h1>HTML</h1>
-        </header>
+  <body>
+    <header>
+      <h1>HTML</h1>
+    </header>
 
-        <nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html.html">HTML</a></li>
+        <li><a href="border-box.html">Box Model</a></li>
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="flexbox.html">Flexbox</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- This is an example of an article element -->
+      <article>
+        <section>
+          <h2>HTML Structure</h2>
+          <p>
+            HTML documents are structured by &lt;html&gt;, &lt;head&gt;, and
+            &lt;body&gt; tags.
+          </p>
+        </section>
+
+        <section>
+          <h2>Semantic HTML</h2>
+          <p>
+            Semantic HTML elements provide meaning to web content. Examples
+            include &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, etc.
+          </p>
+        </section>
+
+        <section>
+          <h2>Content Elements</h2>
+          <p>
+            HTML content elements like &lt;div&gt;, &lt;span&gt;, &lt;a&gt;,
+            &lt;img&gt;, etc. are used to structure and add content.
+          </p>
+
+          <!-- Working with text -->
+          <section>
+            <h4>Text Elements</h4>
+            <p>
+              In HTML, you can emphasize text with the &lt;em&gt; tag, make it
+              strong with the &lt;strong&gt; tag, or highlight it with the
+              &lt;mark&gt; tag. Example: This is an <em>emphasized</em> text, a
+              <strong>strong</strong> text, and a <mark>highlighted</mark> text.
+            </p>
+          </section>
+
+          <!-- List Elements -->
+          <section>
+            <h4>List Elements</h4>
+            <p>
+              You can create an unordered list using &lt;ul&gt; and &lt;li&gt;:
+            </p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="html.html">HTML</a></li>
-                <li><a href="css.html">CSS</a></li>
-                <li><a href="border-box.html">Box Model</a></li>
-                <li><a href="grid.html">Grid</a></li>
-                <li><a href="flexbox.html">Flexbox</a></li>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
             </ul>
-        </nav>
+          </section>
 
-        <main>
-            <!-- This is an example of an article element -->
-            <article>
-                <h2>HTML Structure</h2>
-                <p>HTML documents are structured by &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.</p>
+          <!-- Links -->
+          <section>
+            <h4>Link Element</h4>
+            <p>Use the &lt;a&gt; element to create links:</p>
+            <a href="index.html">Link to Home page</a>
+          </section>
 
-                <h2>Semantic HTML</h2>
-                <p>Semantic HTML elements provide meaning to web content. Examples include &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, etc.</p>
+          <!-- Images -->
+          <section>
+            <h4>Image Element</h4>
+            <p>
+              The &lt;img&gt; element is used to embed images in an HTML page:
+            </p>
+            <img src="images/image.jpg" alt="Sample Image" />
+          </section>
 
-                <section>
-                    <h3>Content Elements</h3>
-                    <p>HTML content elements like &lt;div&gt;, &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, etc. are used to structure and add content.</p>
+          <!-- Forms and Inputs -->
+          <section>
+            <h4>Forms and Inputs</h4>
+            <p>
+              HTML forms are used to collect user inputs. Here's an example
+              form:
+            </p>
+            <form>
+              <label for="name">Name:</label><br />
+              <input type="text" id="name" name="name" /><br />
+              <label for="email">Email:</label><br />
+              <input type="email" id="email" name="email" /><br />
+              <!-- Include more input types as needed -->
+              <input type="submit" value="Submit" />
+            </form>
+          </section>
+        </section>
+      </article>
+    </main>
 
-                    <!-- Working with text -->
-                    <h4>Text Elements</h4>
-                    <p>
-                        In HTML, you can emphasize text with the &lt;em&gt; tag, make it strong with the &lt;strong&gt; tag, or highlight it with the &lt;mark&gt; tag.
-                        Example: This is an <em>emphasized</em> text, a <strong>strong</strong> text, and a <mark>highlighted</mark> text.
-                    </p>
-
-                    <!-- List Elements -->
-                    <h4>List Elements</h4>
-                    <p>You can create an unordered list using &lt;ul&gt; and &lt;li&gt;:</p>
-                    <ul>
-                        <li>List Item 1</li>
-                        <li>List Item 2</li>
-                    </ul>
-                    
-                    <!-- Links -->
-                    <h4>Link Element</h4>
-                    <p>Use the &lt;a&gt; element to create links:</p>
-                    <a href="css.html">Link to CSS page</a>
-
-                    <!-- Images -->
-                    <h4>Image Element</h4>
-                    <p>The &lt;img&gt; element is used to embed images in an HTML page:</p>
-                    <img src="image.jpg" alt="Sample Image">
-
-                    <!-- Forms and Inputs -->
-                    <h4>Forms and Inputs</h4>
-                    <p>HTML forms are used to collect user inputs. Here's an example form:</p>
-                    <form>
-                        <label for="name">Name:</label><br>
-                        <input type="text" id="name" name="name"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email"><br>
-                        <!-- Include more input types as needed -->
-                        <input type="submit" value="Submit">
-                    </form>
-                </section>
-            </article>
-        </main>
-
-        <aside>
-            <!-- content here -->
-        </aside>
-
-        <footer>
-            <p>&copy; 2023 Web Dev Class</p>
-        </footer>
-    </body>
-</
+    <footer>
+      <p>&copy; 2023 CCL</p>
+    </footer>
+  </body>
+</html>

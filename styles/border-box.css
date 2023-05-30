@@ -36,7 +36,8 @@ nav ul li a {
 }
 
 /* Styling for the main content */
-main {
+main,
+footer {
   padding: 20px;
 }
 
